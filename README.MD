@@ -7,4 +7,4 @@
 
 Com base em um video do canal Online Tutorials no [youtube](https://youtu.be/91Q6RvKvd7o)
 
-[![preview img](/preview.png)](https://christmas-pages.vercel.app)
+[![preview img](/preview.png)](https://starbucks-pages.vercel.app)

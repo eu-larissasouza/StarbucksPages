@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Larissa Souza" />
+
+    <title>Starbucks Website Landing Page</title>
+
+    <!-- FAVICON-->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+
+        <header>
+            <a href="#">
+                <img src="assets/img/logo.png" class="logo" />
+            </a>
+
+            <div class="toggle" onclick="toggleMenu()"></div>
+
+            <ul class="navigation" onclick="toggleMenu()">
+                <li>
+                    <a href="#"></a>Home</li>
+                <li>
+                    <a href="#"></a>Menu</li>
+                <li>
+                    <a href="#"></a>What's new</li>
+                <li>
+                    <a href="#"></a>Contact</li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee</br> It's <span class="title">Starbucks</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                </p>
+                <a href="#" class="more">Learn More</a>
+            </div>
+
+            <div class="imgBox">
+                <img src="assets/img/cup1.png" class="starbucks" alt="starbucks">
+            </div>
+        </div>
+        </div>
+
+        <ul class="thumb">
+            <li>
+                <img src="assets/img/thumb1.png" onclick="imgSlider('assets/img/cup1.png'); changeColor('#017143')">
+            </li>
+            <li>
+                <img src="assets/img/thumb2.png" onclick="imgSlider('assets/img/cup2.png'); changeColor('#EB7495')">
+            </li>
+            <li>
+                <img src="assets/img/thumb3.png" onclick="imgSlider('assets/img/cup3.png'); changeColor('#D752B1')">
+            </li>
+        </ul>
+
+        <ul class="sci">
+            <li>
+                <a href="#">
+                    <img src="assets/img/facebook.png">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/twitter.png">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/img/instagram.png">
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Project -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
